@@ -14,7 +14,7 @@
       <ApplColorDefinitionFile val="clr_rnt.eng"/>
       <NulArithmetic val="N"/>
       <WindowSortBy val="R"/>
-      <_SystemPulldownMenu comp="-1" obj="6"/>
+      <_SystemPulldownMenu comp="-1" obj="7"/>
       <_SystemContextMenu comp="-1"/>
       <ExposeComment val="N"/>
       <ProjectName val="TwoUsers"/>
