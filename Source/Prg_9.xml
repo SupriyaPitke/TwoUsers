@@ -27,8 +27,6 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <ToBeMigrated val="Y"/>
-          <ToBeMigratedFrom1x val="Y"/>
           <LastModified _date="736424" _time="46073" date="05/04/2017" time="12:47:53"/>
         </Header>
         <ItemIsn val="2"/>
@@ -126,6 +124,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <DisplayName val="a"/>
                   <_DitIndexForToolkit val="4"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -139,6 +138,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <DisplayName val="b"/>
                   <_DitIndexForToolkit val="5"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -171,6 +171,7 @@
                 <Elements id="81" val="2"/>
                 <_WindowWidth id="241" val="161"/>
                 <SetTableColorBy id="428" val="2"/>
+                <InactiveRowHighlightColor id="697" val="4"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="1" PDOD="128" _test_id="4" id="2">
@@ -200,9 +201,11 @@
                 <ControlLayer id="25" val="1"/>
                 <Data FieldID="1" id="43"/>
                 <ControlName id="46" val="a"/>
+                <Color id="51" val="2"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
+                <Border id="452"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="1" _test_id="3" id="5">
@@ -218,9 +221,11 @@
                 <ControlLayer id="25" val="2"/>
                 <Data FieldID="2" id="43"/>
                 <ControlName id="46" val="b"/>
+                <Color id="51" val="2"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
                 <TabOrder id="314" val="2"/>
+                <Border id="452"/>
               </PropertyList>
             </Control>
           </FormEntry>

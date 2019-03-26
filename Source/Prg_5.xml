@@ -27,8 +27,6 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <ToBeMigrated val="Y"/>
-          <ToBeMigratedFrom1x val="Y"/>
           <LastModified _date="736424" _time="39167" date="05/04/2017" time="10:52:47"/>
         </Header>
         <ItemIsn val="2"/>
@@ -126,6 +124,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <DisplayName val="a"/>
                   <_DitIndexForToolkit val="4"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -139,6 +138,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <DisplayName val="b"/>
                   <_DitIndexForToolkit val="5"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -168,13 +168,17 @@
                 <Width id="23" val="170"/>
                 <Height id="24" val="182"/>
                 <Color id="51" val="6"/>
-                <Style id="63" val="1"/>
                 <BorderStyle id="64" val="1"/>
                 <TitleHeight id="79" val="12"/>
                 <RowHeight id="80" val="13"/>
                 <Elements id="81" val="2"/>
-                <TableInWindow id="190"/>
-                <SetTableColorBy id="428" val="2"/>
+                <TableInWindow id="190" val="Y"/>
+                <_WindowWidth id="241" val="170"/>
+                <V11Style id="539" val="1"/>
+                <TitleColor id="677" val="6"/>
+                <DividerColor id="685" val="6"/>
+                <InactiveRowHighlightColor id="697" val="4"/>
+                <ShowEllipsis id="699"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="1" PDOD="128" _test_id="4" id="2">
@@ -204,9 +208,11 @@
                 <ControlLayer id="25" val="1"/>
                 <Data FieldID="1" id="43"/>
                 <ControlName id="46" val="a"/>
+                <Color id="51" val="2"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
+                <Border id="452"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="1" _test_id="3" id="5">
@@ -222,9 +228,11 @@
                 <ControlLayer id="25" val="2"/>
                 <Data FieldID="2" id="43"/>
                 <ControlName id="46" val="b"/>
+                <Color id="51" val="2"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
                 <TabOrder id="314" val="2"/>
+                <Border id="452"/>
               </PropertyList>
             </Control>
           </FormEntry>

@@ -27,8 +27,6 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <ToBeMigrated val="Y"/>
-          <ToBeMigratedFrom1x val="Y"/>
           <LastModified _date="736424" _time="46461" date="05/04/2017" time="12:54:21"/>
         </Header>
         <ItemIsn val="3"/>
@@ -149,6 +147,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <DisplayName val="a"/>
                   <_DitIndexForToolkit val="5"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -162,6 +161,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <DisplayName val="b"/>
                   <_DitIndexForToolkit val="6"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -189,9 +189,12 @@
                 <Data FieldID="1" id="43"/>
                 <ItemsList id="45" valUnicode="a,b"/>
                 <ControlName id="46" val="a"/>
-                <Style id="63" val="1"/>
                 <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
+                <TabsWidth id="355" val="2"/>
+                <V11Style id="539" val="1"/>
+                <TitleColor id="677" val="2"/>
+                <TitlePadding id="689" val="10"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="1" _test_id="2" id="2">
@@ -202,11 +205,16 @@
                 <Height id="24" val="136"/>
                 <ControlLayer id="25" val="1"/>
                 <Color id="51" val="6"/>
-                <Style id="63" val="1"/>
                 <TitleHeight id="79" val="12"/>
                 <RowHeight id="80" val="13"/>
                 <Elements id="81" val="2"/>
-                <TableInWindow id="190"/>
+                <TableInWindow id="190" val="Y"/>
+                <_WindowWidth id="241" val="236"/>
+                <V11Style id="539" val="1"/>
+                <TitleColor id="677" val="6"/>
+                <DividerColor id="685" val="6"/>
+                <InactiveRowHighlightColor id="697" val="4"/>
+                <ShowEllipsis id="699"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="2" PDOD="128" _test_id="4" id="3">
@@ -236,9 +244,11 @@
                 <ControlLayer id="25" val="1"/>
                 <Data FieldID="2" id="43"/>
                 <ControlName id="46" val="a_0001"/>
+                <Color id="51" val="2"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
                 <TabOrder id="314" val="2"/>
+                <Border id="452"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="2" _test_id="5" id="6">
@@ -254,9 +264,11 @@
                 <ControlLayer id="25" val="2"/>
                 <Data FieldID="3" id="43"/>
                 <ControlName id="46" val="b"/>
+                <Color id="51" val="2"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
                 <TabOrder id="314" val="3"/>
+                <Border id="452"/>
               </PropertyList>
             </Control>
           </FormEntry>

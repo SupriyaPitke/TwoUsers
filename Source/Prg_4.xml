@@ -27,8 +27,6 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <ToBeMigrated val="Y"/>
-          <ToBeMigratedFrom1x val="Y"/>
           <LastModified _date="736424" _time="38073" date="05/04/2017" time="10:34:33"/>
         </Header>
         <ItemIsn val="2"/>

@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="InContainerGroup" ISN_2="1" LastIsn="1" id="12">
+        <Header Description="InContainerGroup" ISN_2="1" LastIsn="1" id="30">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -32,7 +32,7 @@
         <ItemIsn val="2"/>
         <Resource>
           <DB id="1">
-            <DataObject comp="-1" obj="5"/>
+            <DataObject comp="-1" obj="6"/>
             <Access val="W"/>
             <Share val="W"/>
             <Open val="N"/>
@@ -45,7 +45,7 @@
           <Key>
             <Mode val="N"/>
           </Key>
-          <DB comp="-1" obj="5"/>
+          <DB comp="-1" obj="6"/>
           <Sort>
             <CLS val="A"/>
           </Sort>

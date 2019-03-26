@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="InContainerGroup" ISN_2="1" LastIsn="1" id="12">
+        <Header Description="InContainerGroupColor" ISN_2="1" LastIsn="1" id="32">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,12 +27,12 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736424" _time="46345" date="05/04/2017" time="12:52:25"/>
+          <LastModified _date="736424" _time="49841" date="05/04/2017" time="13:50:41"/>
         </Header>
         <ItemIsn val="2"/>
         <Resource>
           <DB id="1">
-            <DataObject comp="-1" obj="5"/>
+            <DataObject comp="-1" obj="6"/>
             <Access val="W"/>
             <Share val="W"/>
             <Open val="N"/>
@@ -45,7 +45,7 @@
           <Key>
             <Mode val="N"/>
           </Key>
-          <DB comp="-1" obj="5"/>
+          <DB comp="-1" obj="6"/>
           <Sort>
             <CLS val="A"/>
           </Sort>
@@ -154,7 +154,7 @@
             <PropertyList model="FORM_GUI0">
               <Color id="51" val="3"/>
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="InContainerGroup"/>
+              <FormName id="311" valUnicode="InContainerGroupColor"/>
               <PersistentFormState id="493"/>
             </PropertyList>
             <Control _test_id="1" id="1">
@@ -164,13 +164,14 @@
                 <Y id="22" val="16"/>
                 <Width id="23" val="268"/>
                 <Height id="24" val="152"/>
+                <Color id="51" val="4"/>
                 <Style id="63" val="1"/>
                 <StaticType id="70" val="128"/>
                 <MultiLine id="71"/>
                 <_VerticalScroll id="73"/>
                 <_Orientation id="143"/>
                 <Line3D id="184"/>
-                <BorderColor id="665" val="2"/>
+                <BorderColor id="665" val="4"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="1" _test_id="2" id="2">

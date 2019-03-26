@@ -4,7 +4,7 @@
   <Header>
     <Version val="14050.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="3"/>
+    <LastIsn val="5"/>
     <LastIsnFolder val="0"/>
   </Header>
 
@@ -13,9 +13,11 @@
       <Object id="1" name="model">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
         </PropertyList>
       </Object>
-      <Object ToBeMigratedFrom1x="Y" id="2" name="ModelForm">
+      <Object id="2" name="ModelForm">
         <PropertyList model="FORM_GUI0">
           <Color id="51" val="3"/>
           <_Comment id="218"/>
@@ -23,11 +25,36 @@
           <PersistentFormState id="493"/>
         </PropertyList>
       </Object>
-      <Object ToBeMigratedFrom1x="Y" id="3" name="ModelTable">
+      <Object id="3" name="ModelTable">
         <PropertyList model="CTRL_GUI0_TABLE">
           <Color id="51" val="6"/>
-          <Style id="63" val="1"/>
-          <TableInWindow id="190"/>
+          <TableInWindow id="190" val="Y"/>
+          <_WindowWidth id="241"/>
+          <V11TableInWindow id="535"/>
+          <V11Style id="539" val="1"/>
+          <TitleColor id="677" val="6"/>
+          <DividerColor id="685" val="6"/>
+          <InactiveRowHighlightColor id="697" val="4"/>
+        </PropertyList>
+      </Object>
+      <Object id="4" name="ModelForm">
+        <PropertyList model="FORM_GUI0">
+          <Color id="51" val="3"/>
+          <_Comment id="218"/>
+          <FormName id="311"/>
+          <PersistentFormState id="493"/>
+        </PropertyList>
+      </Object>
+      <Object id="5" name="ModelTable">
+        <PropertyList model="CTRL_GUI0_TABLE">
+          <Color id="51" val="6"/>
+          <TableInWindow id="190" val="Y"/>
+          <_WindowWidth id="241"/>
+          <V11TableInWindow id="535"/>
+          <V11Style id="539" val="1"/>
+          <TitleColor id="677" val="6"/>
+          <DividerColor id="685" val="6"/>
+          <InactiveRowHighlightColor id="697" val="4"/>
         </PropertyList>
       </Object>
     </Models>

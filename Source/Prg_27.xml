@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="InContainerGroup" ISN_2="1" LastIsn="1" id="12">
+        <Header Description="WindowsByTable" ISN_2="1" LastIsn="1" id="27">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,16 +27,16 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736424" _time="46345" date="05/04/2017" time="12:52:25"/>
+          <LastModified _date="736424" _time="46073" date="05/04/2017" time="12:47:53"/>
         </Header>
         <ItemIsn val="2"/>
         <Resource>
           <DB id="1">
-            <DataObject comp="-1" obj="5"/>
+            <DataObject comp="-1" obj="6"/>
             <Access val="W"/>
             <Share val="W"/>
             <Open val="N"/>
-            <Cache val="Y"/>
+            <Cache val="N"/>
             <IdentifyRowModifications val="84"/>
           </DB>
           <Columns/>
@@ -45,7 +45,7 @@
           <Key>
             <Mode val="N"/>
           </Key>
-          <DB comp="-1" obj="5"/>
+          <DB comp="-1" obj="6"/>
           <Sort>
             <CLS val="A"/>
           </Sort>
@@ -125,7 +125,7 @@
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
                   <DisplayName val="a"/>
-                  <_DitIndexForToolkit val="5"/>
+                  <_DitIndexForToolkit val="4"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -139,7 +139,7 @@
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
                   <DisplayName val="b"/>
-                  <_DitIndexForToolkit val="6"/>
+                  <_DitIndexForToolkit val="5"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -150,70 +150,52 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="6" _last_test_id="6" id="1">
+          <FormEntry _last_isn="5" _last_test_id="5" id="1">
             <PropertyList model="FORM_GUI0">
-              <Color id="51" val="3"/>
+              <Color id="51" val="5"/>
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="InContainerGroup"/>
+              <FormName id="311" valUnicode="WindowsByTable"/>
+              <_TabbingOrder id="318" val="1"/>
               <PersistentFormState id="493"/>
             </PropertyList>
             <Control _test_id="1" id="1">
-              <PropertyList model="CTRL_GUI0_STATIC">
-                <Text id="19" valUnicode="Group"/>
-                <X id="21" val="20"/>
-                <Y id="22" val="16"/>
-                <Width id="23" val="268"/>
-                <Height id="24" val="152"/>
-                <Style id="63" val="1"/>
-                <StaticType id="70" val="128"/>
-                <MultiLine id="71"/>
-                <_VerticalScroll id="73"/>
-                <_Orientation id="143"/>
-                <Line3D id="184"/>
-                <BorderColor id="665" val="2"/>
-              </PropertyList>
-            </Control>
-            <Control ISN_FATHER="1" _test_id="2" id="2">
               <PropertyList model="CTRL_GUI0_TABLE">
-                <X id="21" val="36"/>
-                <Y id="22" val="24"/>
-                <Width id="23" val="224"/>
-                <Height id="24" val="128"/>
+                <Placement bottom="100" id="20" right="100"/>
+                <X id="21" val="8"/>
+                <Y id="22" val="8"/>
+                <Width id="23" val="161"/>
+                <Height id="24" val="182"/>
                 <Color id="51" val="6"/>
                 <TitleHeight id="79" val="12"/>
                 <RowHeight id="80" val="13"/>
                 <Elements id="81" val="2"/>
-                <TableInWindow id="190" val="Y"/>
-                <_WindowWidth id="241" val="224"/>
-                <V11Style id="539" val="1"/>
-                <TitleColor id="677" val="6"/>
-                <DividerColor id="685" val="6"/>
+                <_WindowWidth id="241" val="161"/>
+                <SetTableColorBy id="428" val="2"/>
                 <InactiveRowHighlightColor id="697" val="4"/>
-                <ShowEllipsis id="699"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="2" PDOD="128" _test_id="4" id="3">
+            <Control ISN_FATHER="1" PDOD="128" _test_id="4" id="2">
               <PropertyList model="CTRL_GUI0_COLUMN">
                 <Width id="23" val="72"/>
                 <ControlLayer id="25" val="1"/>
                 <ColumnTitle id="139" valUnicode="a"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="2" PDOD="128" _test_id="6" id="4">
+            <Control ISN_FATHER="1" PDOD="128" _test_id="5" id="3">
               <PropertyList model="CTRL_GUI0_COLUMN">
                 <Width id="23" val="72"/>
                 <ControlLayer id="25" val="2"/>
                 <ColumnTitle id="139" valUnicode="b"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="2" _test_id="3" id="5">
+            <Control ISN_FATHER="1" _test_id="2" id="4">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
                   <Var FieldID="1"/>
                 </Model>
                 <Placement id="20" right="100"/>
-                <X id="21" val="40"/>
-                <Y id="22" val="39"/>
+                <X id="21" val="12"/>
+                <Y id="22" val="23"/>
                 <Width id="23" val="65"/>
                 <Height id="24" val="10"/>
                 <ControlLayer id="25" val="1"/>
@@ -226,14 +208,14 @@
                 <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="2" _test_id="5" id="6">
+            <Control ISN_FATHER="1" _test_id="3" id="5">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
                   <Var FieldID="2"/>
                 </Model>
                 <Placement id="20" right="100"/>
-                <X id="21" val="112"/>
-                <Y id="22" val="39"/>
+                <X id="21" val="84"/>
+                <Y id="22" val="23"/>
                 <Width id="23" val="65"/>
                 <Height id="24" val="10"/>
                 <ControlLayer id="25" val="2"/>
