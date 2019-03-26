@@ -26,12 +26,34 @@
           <Offline val="N"/>
           <Closeopentasks val="N"/>
           <RunProjectAs val="O"/>
-          <FormType val="N"/>
+          <FormType val="D"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737144" _time="57726" date="26/03/2019" time="16:02:06"/>
+          <ToBeMigrated val="Y"/>
+          <ToBeMigratedFrom1x val="Y"/>
+          <LastModified _date="736424" _time="58403" date="05/04/2017" time="16:13:23"/>
         </Header>
+        <ItemIsn val="2"/>
         <Resource>
-          <Columns/>
+          <Columns>
+            <Column id="1" name="a">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="11"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="11"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="2" name="b">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="11"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="11"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+          </Columns>
         </Resource>
         <Information>
           <Key>
@@ -80,7 +102,7 @@
             <AllowPrintingData val="N"/>
           </SIDE_WIN>
           <WIN>
-            <OpenTaskWindow val="Y"/>
+            <OpenTaskWindow val="N"/>
             <CloseTaskWindow val="Y"/>
             <ForegroundWindow val="Y"/>
             <FlipFld val="N"/>
@@ -102,25 +124,152 @@
               <EventType val="S"/>
               <PublicObject comp="-1"/>
             </Event>
+            <LogicLines>
+              <LogicLine>
+                <Select FieldID="1" FlowIsn="1" id="1">
+                  <Column val="1"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="4"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="2" FlowIsn="2" id="2">
+                  <Column val="2"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="5"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+            </LogicLines>
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry id="1">
+          <FormEntry _last_isn="5" _last_test_id="5" id="1">
             <PropertyList model="FORM_GUI0">
+              <Model comp="-1" id="1" obj="2"/>
               <X id="21"/>
               <Y id="22"/>
               <Width id="23" val="320"/>
               <Height id="24" val="200"/>
+              <SystemMenu id="27"/>
+              <MinimizeButton id="28"/>
+              <MaximizeButton id="29"/>
               <FormUnits id="33" val="1"/>
               <VerticalFactor id="34" val="8"/>
               <HorizontalFactor id="35" val="4"/>
-              <Color id="51" val="3"/>
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="TwoUsers"/>
+              <FormName id="311" valUnicode="Main Program"/>
               <WindowType id="358" val="11"/>
-              <StartupMode id="362" val="2"/>
-              <_PulldownMenu comp="-1" id="441" obj="1"/>
+              <PersistentFormState id="493"/>
             </PropertyList>
+            <Control _test_id="1" id="1">
+              <PropertyList model="CTRL_GUI0_TABLE">
+                <X id="21" val="76"/>
+                <Y id="22" val="32"/>
+                <Width id="23" val="192"/>
+                <Height id="24" val="120"/>
+                <Color id="51" val="6"/>
+                <Visible id="61"/>
+                <Style id="63" val="1"/>
+                <TitleHeight id="79" val="12"/>
+                <RowHeight id="80" val="13"/>
+                <Elements id="81" val="2"/>
+                <RightToLeft id="130"/>
+                <TableInWindow id="190"/>
+                <MultiMarking id="196"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1" PDOD="128" _test_id="3" id="2">
+              <PropertyList model="CTRL_GUI0_COLUMN">
+                <Width id="23" val="72"/>
+                <ControlLayer id="25" val="1"/>
+                <Visible id="61"/>
+                <HorizontalAlignment id="65" val="1"/>
+                <VerticalAlignment id="66" val="2"/>
+                <ColumnTitle id="139" valUnicode="a"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1" PDOD="128" _test_id="5" id="3">
+              <PropertyList model="CTRL_GUI0_COLUMN">
+                <Width id="23" val="72"/>
+                <ControlLayer id="25" val="2"/>
+                <Visible id="61"/>
+                <HorizontalAlignment id="65" val="1"/>
+                <VerticalAlignment id="66" val="2"/>
+                <ColumnTitle id="139" valUnicode="b"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1" _test_id="2" id="4">
+              <PropertyList model="CTRL_GUI0_EDIT">
+                <Model ID="MODEL_GUI_INT_TBL" id="1">
+                  <Var FieldID="1"/>
+                </Model>
+                <Placement id="20" right="100"/>
+                <X id="21" val="80"/>
+                <Y id="22" val="47"/>
+                <Width id="23" val="65"/>
+                <Height id="24" val="10"/>
+                <ControlLayer id="25" val="1"/>
+                <Data FieldID="1" id="43"/>
+                <ControlName id="46" val="a"/>
+                <HelpScreen id="54"/>
+                <Tooltip id="56"/>
+                <HelpPrompt id="57"/>
+                <SelectProgram id="58"/>
+                <SelectMode id="59" val="B"/>
+                <Visible id="61"/>
+                <Style id="63" val="1"/>
+                <HorizontalAlignment id="65" val="1"/>
+                <VerticalAlignment id="66" val="2"/>
+                <MultiLineEdit id="71"/>
+                <Format id="82" valUnicode="11"/>
+                <Attribute id="83" val="65"/>
+                <RightToLeft id="130"/>
+                <_Orientation id="143"/>
+                <TabOrder id="314" val="1"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1" _test_id="4" id="5">
+              <PropertyList model="CTRL_GUI0_EDIT">
+                <Model ID="MODEL_GUI_INT_TBL" id="1">
+                  <Var FieldID="2"/>
+                </Model>
+                <Placement id="20" right="100"/>
+                <X id="21" val="152"/>
+                <Y id="22" val="47"/>
+                <Width id="23" val="65"/>
+                <Height id="24" val="10"/>
+                <ControlLayer id="25" val="2"/>
+                <Data FieldID="2" id="43"/>
+                <ControlName id="46" val="b"/>
+                <HelpScreen id="54"/>
+                <Tooltip id="56"/>
+                <HelpPrompt id="57"/>
+                <SelectProgram id="58"/>
+                <SelectMode id="59" val="B"/>
+                <Visible id="61"/>
+                <Style id="63" val="1"/>
+                <HorizontalAlignment id="65" val="1"/>
+                <VerticalAlignment id="66" val="2"/>
+                <MultiLineEdit id="71"/>
+                <Format id="82" valUnicode="11"/>
+                <Attribute id="83" val="65"/>
+                <RightToLeft id="130"/>
+                <_Orientation id="143"/>
+                <TabOrder id="314" val="2"/>
+              </PropertyList>
+            </Control>
           </FormEntry>
         </TaskForms>
       </Task>
