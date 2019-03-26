@@ -8,7 +8,7 @@
 
   <Exe comp="-1"/>
 
-  <LastIsn val="2"/>
+  <LastIsn val="3"/>
 
   <LastIsnFolder val="0"/>
 
@@ -48,6 +48,37 @@
 
 </DataObject> 
 <DataObject PhysicalName="test1" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="2" name="test1">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Position val="D"/>
+
+  <PositionIndex val="-1"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns/>
+
+  <Indexes/>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject PhysicalName="Test2" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="3" name="Test2">
 
   <Encrypt val="N"/>
 
