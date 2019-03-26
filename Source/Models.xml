@@ -4,7 +4,7 @@
   <Header>
     <Version val="14050.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="1"/>
+    <LastIsn val="3"/>
     <LastIsnFolder val="0"/>
   </Header>
 
@@ -13,6 +13,21 @@
       <Object id="1" name="model">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_ALPHA" id="1"/>
+        </PropertyList>
+      </Object>
+      <Object ToBeMigratedFrom1x="Y" id="2" name="ModelForm">
+        <PropertyList model="FORM_GUI0">
+          <Color id="51" val="3"/>
+          <_Comment id="218"/>
+          <FormName id="311"/>
+          <PersistentFormState id="493"/>
+        </PropertyList>
+      </Object>
+      <Object ToBeMigratedFrom1x="Y" id="3" name="ModelTable">
+        <PropertyList model="CTRL_GUI0_TABLE">
+          <Color id="51" val="6"/>
+          <Style id="63" val="1"/>
+          <TableInWindow id="190"/>
         </PropertyList>
       </Object>
     </Models>
