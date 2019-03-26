@@ -11,9 +11,10 @@
     <ProjectData>
       <GUID val="{450DF249-3B0A-487B-8D85-7B69CD48D204}"/>
       <RemoteFlowMonitorRight comp="-1"/>
+      <ApplColorDefinitionFile val="clr_rnt.eng"/>
       <NulArithmetic val="N"/>
       <WindowSortBy val="R"/>
-      <_SystemPulldownMenu comp="-1" obj="1"/>
+      <_SystemPulldownMenu comp="-1" obj="3"/>
       <_SystemContextMenu comp="-1"/>
       <ExposeComment val="N"/>
       <ProjectName val="TwoUsers"/>
